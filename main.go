@@ -19,7 +19,6 @@ func main() {
 	}
 
 	token := os.Getenv("DISCORD_TOKEN")
-	serverGuild := os.Getenv("DISCORD_SERVER_GUILD")
 
 	dSession, err := discordgo.New("Bot " + token)
 	if err != nil {
@@ -35,7 +34,7 @@ func main() {
 	}
 
 	// Register Slash Command with a string argument
-	command, err := dSession.ApplicationCommandCreate(dSession.State.User.ID, serverGuild, &discordgo.ApplicationCommand{
+	command, err := dSession.ApplicationCommandCreate(dSession.State.User.ID, "", &discordgo.ApplicationCommand{
 		Name:        "fix-social",
 		Description: "Attempts to fix a social media link embed",
 		Options: []*discordgo.ApplicationCommandOption{

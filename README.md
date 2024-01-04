@@ -37,7 +37,7 @@ Host this bot somewhere, or run it locally
 
 ### Add bot user to channel
 
-Any channel the bot has permission to view it will automatically watch for links to fix. Discord doesn't allow bots to update user messages, repost it with the fixed link.
+Any channel the bot has permission to view it will automatically watch for links to fix. Discord doesn't allow bots to update user messages, so the bot will repost the message content with the fixed link.
 
 ### Slash Command
 
