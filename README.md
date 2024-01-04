@@ -19,6 +19,14 @@ DISCORD_TOKEN=
 go run main.go
 ```
 
+## Discord Developer Permissions
+
+Oauth2 Scopes
+- applications.commands
+- bot
+  - read messages/view channels
+  - send messages
+  - send messages in threads
 
 ## Usage
 
