@@ -52,7 +52,7 @@ fx/vx - add either fx before 'twitter' to embed the video or images!
 ### X (gonna give it to ya)
 Fix vX - If we're ever forced to use x.com, stick fixv in front of the x.
 
-### TikTok
+### TikTok  
 vxTikTok - put vx in front of tiktok.
 
 ### Reddit
