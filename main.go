@@ -111,10 +111,6 @@ func messageCreate(s *discordgo.Session, m *discordgo.MessageCreate) {
 		return
 	}
 
-	if m.Content == "poke" {
-		s.ChannelMessageSend(m.ChannelID, "oooh myyy")
-	}
-
 	if link.IsUrl(m.Content) {
 		url, _ := url.Parse(m.Content)
 		fixableLink := link.Link{
