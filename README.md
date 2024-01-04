@@ -28,20 +28,35 @@ Oauth2 Scopes
   - send messages
   - send messages in threads
 
+Bot Permissions
+- MESSAGE CONTENT INTENT
+
 ## Usage
 
 Host this bot somewhere, or run it locally
 
-## Notes for self
+### Add bot user to channel
 
+Any channel the bot has permission to view it will automatically watch for links to fix. Discord doesn't allow bots to update user messages, repost it with the fixed link.
 
-Twitter
-fx/vx - add either fx or vx right before 'twitter' to embed the video or images! They both have slightly different looks, so see which you prefer.
-X (gonna give it to ya)
+### Slash Command
+
+`/fix-social <url>` - The bot will fix the link you provide and repost it in the channel you're in.
+
+## Support links
+
+### Twitter
+
+fx/vx - add either fx before 'twitter' to embed the video or images!
+
+### X (gonna give it to ya)
 Fix vX - If we're ever forced to use x.com, stick fixv in front of the x.
-TikTok
+
+### TikTok
 vxTikTok - put vx in front of tiktok.
-Reddit
+
+### Reddit
 vxReddit - get rid of that fake play button by putting vx in front of reddit!
-Instagram
+
+### Instagram
 Insta Fix - put dd in front of Instagram. This doesn't work 100% of the time, sometimes it only works on popular videos.
